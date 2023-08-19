@@ -1,0 +1,23 @@
+{
+  "name": "simple-http-server",
+  "version": "1.0.0",
+  "description": "Port 80, /api/v1/health health check",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkjaiswal/simple-http-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkjaiswal/simple-http-server/issues"
+  },
+  "homepage": "https://github.com/nkjaiswal/simple-http-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
